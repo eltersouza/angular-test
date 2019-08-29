@@ -1,0 +1,26 @@
+.app-toolbar {
+  position: fixed;
+  left: 5px;
+  top: 50px;
+  height: 70%;
+  background-color: #333;
+  z-index: 1000;
+  overflow: hidden;
+
+  .app-toolbar-item {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: #ececec;
+  }
+}
+
+.closed {
+  width: 5px;
+}
+
+.opened {
+  width: 70px;
+}

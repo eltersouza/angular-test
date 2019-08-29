@@ -1,0 +1,3 @@
+<div class="app-toolbar closed" [@changeDivSize]='currentState' (mouseover)="changeState('final')" (mouseout)="changeState('initial')">
+  <app-toolbar-item cdkDrag *ngFor="let item of itemList" [item]="item"></app-toolbar-item>
+</div>
